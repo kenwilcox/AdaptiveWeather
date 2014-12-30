@@ -13,6 +13,7 @@
 		BE4E1E631A5261A100EFDAF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4E1E621A5261A100EFDAF8 /* Images.xcassets */; };
 		BE4E1E661A5261A100EFDAF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4E1E641A5261A100EFDAF8 /* LaunchScreen.xib */; };
 		BE4E1E721A5261A100EFDAF8 /* AdaptiveWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E1E711A5261A100EFDAF8 /* AdaptiveWeatherTests.swift */; };
+		BE4E1E7D1A5262CA00EFDAF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE4E1E7B1A5262CA00EFDAF8 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BE4E1E6B1A5261A100EFDAF8 /* AdaptiveWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4E1E701A5261A100EFDAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4E1E711A5261A100EFDAF8 /* AdaptiveWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveWeatherTests.swift; sourceTree = "<group>"; };
+		BE4E1E7B1A5262CA00EFDAF8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE4E1E7C1A5262CA00EFDAF8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 		BE4E1E4D1A5261A100EFDAF8 = {
 			isa = PBXGroup;
 			children = (
+				BE4E1E7B1A5262CA00EFDAF8 /* LICENSE */,
+				BE4E1E7C1A5262CA00EFDAF8 /* README.md */,
 				BE4E1E581A5261A100EFDAF8 /* AdaptiveWeather */,
 				BE4E1E6E1A5261A100EFDAF8 /* AdaptiveWeatherTests */,
 				BE4E1E571A5261A100EFDAF8 /* Products */,
@@ -194,6 +199,7 @@
 			files = (
 				BE4E1E611A5261A100EFDAF8 /* Main.storyboard in Resources */,
 				BE4E1E661A5261A100EFDAF8 /* LaunchScreen.xib in Resources */,
+				BE4E1E7D1A5262CA00EFDAF8 /* LICENSE in Resources */,
 				BE4E1E631A5261A100EFDAF8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
