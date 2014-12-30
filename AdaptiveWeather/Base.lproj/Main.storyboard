@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -27,6 +28,7 @@
                         <color key="backgroundColor" red="0.29019607843137252" green="0.6705882352941176" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="j8z-S7-XUg" secondAttribute="bottom" id="FO1-Cs-OT9"/>
+                            <constraint firstItem="GDK-el-tgn" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="Oyf-Xm-c5c"/>
                             <constraint firstItem="GDK-el-tgn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="RHy-v3-cnS"/>
                             <constraint firstItem="j8z-S7-XUg" firstAttribute="top" secondItem="GDK-el-tgn" secondAttribute="bottom" constant="20" id="Z4Y-yG-kmY"/>
                             <constraint firstItem="j8z-S7-XUg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gOv-KU-t0r"/>
